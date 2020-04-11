@@ -1,0 +1,15 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-velikdenapp-master-175119-authRole",
+            "UnauthRoleArn": "arn:aws:iam::328485973947:role/amplify-velikdenapp-master-175119-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::328485973947:role/amplify-velikdenapp-master-175119-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-velikdenapp-master-175119-deployment",
+            "UnauthRoleName": "amplify-velikdenapp-master-175119-unauthRole",
+            "StackName": "amplify-velikdenapp-master-175119",
+            "StackId": "arn:aws:cloudformation:us-east-2:328485973947:stack/amplify-velikdenapp-master-175119/f31ad6f0-7c03-11ea-aff5-0294f7a52ca2",
+            "AmplifyAppId": "d2b1b18bwbrnw1"
+        }
+    }
+}

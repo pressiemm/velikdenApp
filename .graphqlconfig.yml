@@ -1,0 +1,12 @@
+projects:
+  velikdenapp:
+    schemaPath: app/graphql/schema.json
+    includes:
+      - app/graphql/**/*.graphql
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: ''
+        generatedFileName: ''
+        docsFilePath: app/graphql/com/amazonaws/amplify/generated/graphql
