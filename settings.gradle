@@ -1,0 +1,2 @@
+rootProject.name='Velikden App'
+include ':app'
