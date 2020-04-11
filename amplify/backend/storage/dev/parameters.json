@@ -1,0 +1,5 @@
+{
+    "tableName": "dev",
+    "partitionKeyName": "fightID",
+    "partitionKeyType": "S"
+}

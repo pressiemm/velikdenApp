@@ -1,0 +1,48 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "velikdenapp406dec09",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "api9daeb936",
+    "apiName": "api9daeb936",
+    "functionArns": [
+        {
+            "lambdaFunction": "velikdenapp406dec09"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "amplify-velikdenapp-master-175119-authRole",
+        "unAuthRoleName": "amplify-velikdenapp-master-175119-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "velikdenapp406dec09",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}
